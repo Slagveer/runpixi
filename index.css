@@ -1,0 +1,23 @@
+/* ::::: http://www.goodboydigital.com/runpixierun/css/normalize.css ::::: */
+
+audio, canvas, video { display: inline-block; }
+audio:not([controls]) { display: none; height: 0px; }
+html { font-size: 100%; }
+html, button, input, select, textarea { font-family: sans-serif; }
+body { margin: 0px; }
+q::before, q::after { content: none; }
+svg:not(:root) { overflow: hidden; }
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0px none; padding: 0px; }
+/* ::::: http://www.goodboydigital.com/runpixierun/css/main.css ::::: */
+
+html, button, input, select, textarea { color: rgb(34, 34, 34); }
+html { height: 100%; overflow: hidden; }
+body { font-size: 1em; line-height: 1.4; background-color: rgb(37, 40, 74); overflow: hidden; width: 100%; }
+*::-moz-selection { background: rgb(179, 212, 252) none repeat scroll 0% 0%; text-shadow: none; }
+.ir::before { content: ""; display: block; width: 0px; height: 100%; }
+.clearfix::before, .clearfix::after { content: " "; display: table; }
+.clearfix::after { clear: both; }
+@media only screen and (min-width: 35em) {
+}
+@media not all, only screen and (min-resolution: 144dpi) {
+}
